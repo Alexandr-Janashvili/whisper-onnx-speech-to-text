@@ -1,0 +1,46 @@
+{
+    "name": "whisper-onnx-speech-to-text",
+    "version": "1.0.0",
+    "description": "Node.js plugin for speech recognition that works with OpenAI's Whisper models using ONNX.",
+    "homepage": "https://npmjs.com/whisper-onnx-speech-to-text",
+    "author": "Alexandr Janashvili",
+    "main": "dist/index.js",
+    "type": "module",
+    "bin": {
+        "download": "dist/download.js"
+    },
+    "scripts": {
+        "build": "npx tsc && chmod +x dist/download.js"
+    },
+    "devDependencies": {
+        "@types/node": "^20.5.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "@xenova/transformers": "^2.5.2",
+        "readline-sync": "^1.4.10",
+        "shelljs": "^0.8.5",
+        "wavefile": "^11.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Alexandr-Janashvili/whisper-onnx-speech-to-text.git"
+    },
+    "license": "MIT",
+    "keywords": [
+        "openai",
+        "whisper",
+        "onnx",
+        "huggingface",
+        "transformers",
+        "transformers.js",
+        "transcribe",
+        "audio recognition",
+        "speech",
+        "speech-to-Text",
+        "wav2text",
+        "stt",
+        "tts"
+    ]
+}
