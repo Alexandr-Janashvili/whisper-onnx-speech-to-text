@@ -52,13 +52,10 @@ The `initWhisper()` takes the name of the model and returns an instance of the W
 
 The `Whisper` class has the following methods:
 
-#### 1. `transcribe(filePath: string, language?: string)` : transcribes speech from wav file.
-Parameters:
-
-- `filePath`: path to wav file
-- `language`: target language for recognition. Name format - the full name in English like `'spanish'`
-
-#### 2. `disposeModel()` : dispose initialized model.
+- `transcribe(filePath: string, language?: string)` : transcribes speech from wav file.
+  - `filePath`: path to wav file
+  - `language`: target language for recognition. Name format - the full name in English like `'spanish'`
+- `disposeModel()` : dispose initialized model.
 
 ## Made with
 
